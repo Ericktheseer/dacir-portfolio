@@ -131,18 +131,18 @@
                             Contact Us!
                         </h2>
                         
-                        <form class="mt-3">
+                        <form @submit.prevent="submitForm" class="mt-3">
                           <div class="form-group my-4 rounded-3">
                             <label for="exampleFormControlInput1">Name</label>
-                            <input type="text" class="form-control" id="formname" placeholder="First Name M.I. Last Name">
+                            <input type="text" v-model="name" class="form-control" id="formname" placeholder="First Name M.I. Last Name">
                           </div>
                           <div class="form-group my-4 rounded-3">
                             <label for="exampleFormControlInput1">Email Address</label>
-                            <input type="email" class="form-control" id="formemail" placeholder="john.doe@email.com">
+                            <input type="email" v-model="email" class="form-control" id="formemail" placeholder="john.doe@email.com">
                           </div>
                           <div class="form-group my-4 rounded-3">
                             <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea class="form-control" id="formmessage" rows="6"></textarea>
+                            <textarea class="form-control" v-model="message" id="formmessage" rows="6"></textarea>
                           </div>
                           <div class="my-3 d-flex justify-content-between">
                             <div class="d-flex justify-content-start gap-3">
