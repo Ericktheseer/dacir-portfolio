@@ -151,7 +151,7 @@
                                 <a href="https://github.com/" id="github"><i class="fab fa-github"></i></a>
                             </div>  
 
-                            <button type="submit" id="form-btn" class="submit-btn pl-5 pr-5" disabled="isLoading">{{isLoading ? "Sending..." : "Submit"}}<i class="bi bi-send-fill"></i></button>
+                            <button type="submit" id="form-btn" class="submit-btn pl-5 pr-5" :disabled="isLoading">{{isLoading ? "Sending..." : "Submit"}}<i class="bi bi-send-fill"></i></button>
                           </div>
 
                           <!-- The location where the reCAPTCHA checkbox will appear -->
