@@ -1,0 +1,203 @@
+#logo {
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: white;
+}
+
+nav a {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: white !important;
+}
+
+.name {
+  font-family: Montserrat;
+  font-weight: 900;
+  font-style: Bold;
+  font-size: 35px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0%;
+  align-items: center;
+  justify-content: center;
+  color: red !important;
+}
+
+.secondname {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: semi-bold;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: black !important;
+}
+
+.pname {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: black !important;
+}
+
+#button1 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0%; 
+  color: white !important;
+  border: 1px black solid;
+  padding: 10px;
+  width: 170px;
+}
+
+#button2 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0%;
+  background-color: white;
+  color: blue !important;
+  border: 1px black solid;
+  padding: 10px;
+  width: 170px;
+}
+
+#project {
+  background: #003363;
+}
+
+#profile {
+  width: 300px;
+
+}
+
+.icon {
+  font-size: 30px;
+  color: white !important;
+}
+
+#contact-header {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #12C6FF;
+
+}
+
+#contact-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+#contact form label {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+#contact form input {
+  background: #FFFFFF;
+  border: 1px solid #12C6FF;
+  border-radius: 0 !important;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #003363 !important;
+}
+
+#contact form textarea {
+
+  background: #FFFFFF;
+  border: 1px solid #12C6FF !important;
+  border-radius: 0 !important;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #003363 !important;
+}
+
+#form-btn {
+  padding: 8px 24px;
+  gap: 8px;
+  background: red;
+  border-radius: 2px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#social-header {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#contact-image {
+  background: 
+    linear-gradient(
+      rgba(0, 34, 65, 0.61),
+      rgba(0, 34, 65, 0.61)
+    ),
+    url("https://i.guim.co.uk/img/media/b701b40253e58cfcd5da79b2dfb4357c3c909a54/0_244_7300_4383/master/7300.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=86797ba748651d2b01f7d1a203e885c3");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  color: #003363;
+}
+
